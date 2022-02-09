@@ -1,22 +1,29 @@
 # WebBrowser_with_Kotlin
 
-Simple Web Browser 
+## Simple Web Browser 
 
 ▶웹사이트를 불러올수있다.
+
 ▶뒤로가기, 앞으로 가기 기능 구현
+
 ▶홈버튼 기능 구현
+
 ▶로딩정도 확인가능 기능 구현
+
 ▶##보안관련 작업은 대강하고 진행##
 
+
 ▶ConstraintLayout
+
 ▶EditText
+
 ▶WebView
 
-1. 기본 UI구성하기
+## 1. 기본 UI구성하기
 
 ▶vector asset 으로 홈,뒤로가기,앞으로가기 그림 추가
 
-2. URL 로딩 기능 구현하기
+## 2. URL 로딩 기능 구현하기
 
 ▶ERR_CLEARTEXT_NOT_PERMITTED 
 	-> 보안 관련 에러 //manifest에 android:usesCleartextTraffic="true" 추가하면 해결 
@@ -29,11 +36,11 @@ Simple Web Browser
 
 ▶setOnEditorActionListener 기능 사용 // action 기능 
 
-3. 네비게이션 기능 구현하기
+## 3. 네비게이션 기능 구현하기
 
 ▶onBackPressed() 로 뒤로가기 버튼을 눌렀을시 더이상 뒤로 갈 데이터가 없으면 앱이 종료 아니면 뒤로가지는 기능 구현
 
-4. 완성도 높이기
+## 4. 완성도 높이기
 
 ▶android:background="?attr/selectableItemBackground" 로 리플이펙트 구현
 
@@ -61,4 +68,4 @@ Simple Web Browser
 
 ▶URLUtill.isNetworkUrl 을 사용하여 http:// 가 자동으로 나타나게 구현
 
-5. 완성
+## 5. 완성
