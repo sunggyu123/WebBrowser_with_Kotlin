@@ -57,9 +57,13 @@
 ▶ SwifeRefreshLayout을 사용하여 하단으로 드래그시 새로고침 기능 구현
 
 ▶ 새로고침후 새로고침 모양이 사라지지 않는것을 해결하기위해 
+    
     page가 로딩이 끝난후 동작 할 수 있도록 class를 지정하고 
+    
     onPageClient 를 override 하여 로딩이 끝남을 사용하고 
+    
     isRefreshing = false로 해결
+
 ▶ contentLoadingLayout으로 페이지 로딩 상황 게이지 구현
 
 ▶selectAllonForcus 로 전체 주소가 드래그되있기를 희망하여 구현
